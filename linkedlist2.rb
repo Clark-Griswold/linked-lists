@@ -46,11 +46,11 @@ def infinite_loop?(list)
   return false
 end
 
-node1 = LinkedList2.new(37)
+node1 = LinkedList2.new(35)
 node2 = LinkedList2.new(99, node1)
-node3 = LinkedList2.new(12, node2)
-node4 = LinkedList2.new(45, node3)
-node5 = LinkedList2.new(21, node4)
+node3 = LinkedList2.new(65, node2)
+node4 = LinkedList2.new(11, node3)
+node5 = LinkedList2.new(44, node4)
    
   
 
